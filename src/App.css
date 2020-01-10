@@ -1,0 +1,128 @@
+
+p,h1,h4,h6,small, td{
+  font-family: "monteserrat",sans-serif
+}
+@media (max-width:575px){
+  .my-margin{
+    margin:auto 0px auto 0px auto !important;
+    
+  }
+}
+
+/*sidebar collapse start*/
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  max-height: 100%;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  overflow-y: auto;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none!important;
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+  text-align: left;
+  padding: 15px 25px;
+  border-bottom: 1px solid #29f3ff;
+}
+.sidepanel a img{
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.sidepanel a:hover {
+  color: #29f3ff;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+/* .openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+} */
+
+/* .openbtn:hover {
+  background-color:#444;
+} */
+/*Side bar collapsing ended*/
+.App {
+  text-align: center;
+}
+#place::placeholder{
+color:white;
+}
+.mybtn{
+  color: #fff;
+    background-color: #2C3034;
+    border-color: #2C3034;
+}
+/* #navbarSupportedContent ul li:active{
+  color:red!important;
+  background-color: red;
+} */
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.table-data{
+font-size: 11px;
+font-weight: 600;
+text-align: left;
+border-top: 2px solid #ccc;
+border-bottom: 2px solid #ccc;
+
+}
+
+.table-data tr:nth-child(n+1){
+  background: #ccc
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.errHead{
+  color: black !important;
+}

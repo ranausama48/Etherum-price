@@ -1,0 +1,17 @@
+.card{
+    background-color: #555555 !important;
+    border: none ;
+}
+.input-group-text{
+    font-weight: 50px
+}
+.form-control:disabled, .form-control[readonly] {
+    background: rgb(35, 39, 43);
+    opacity: 1;
+}
+.form-control{
+    background: rgb(35, 39, 43);
+}
+.input-group-text{
+    width: 200px;
+}
